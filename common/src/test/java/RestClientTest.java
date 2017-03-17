@@ -30,6 +30,6 @@ public class RestClientTest {
         ResponseBody body = response.body();
 
         assertThat(response.code()).isEqualTo(200);
-        body.string();
+        System.out.println( body.string());
     }
 }
